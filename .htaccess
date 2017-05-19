@@ -1,0 +1,10 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+
+# Rewrite for contact.html
+RewriteRule ^contact contact.html [NC, L]
+# NC makes the rule non case sensitive
+# L makes this the last rule that this specific condition will match
+
+#Rewrite for about.html
+RewriteRule ^about about.html [NC, L]

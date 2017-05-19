@@ -1,0 +1,146 @@
+.img-circle {
+  border: 1px solid #303030;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+	background: #9370DB
+}
+
+.btn {
+    border: 0 none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 125px;
+    height: 50px;
+    margin: 0;
+    color: #303030;
+    border-radius: 24px;
+    border: 1px solid #303030;
+    background: #9370DB;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    transition: all ease 0.3s;
+    color: white;
+    border-color: white;
+    background: white;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+    padding-top: 0;
+}
+
+.visible-xs-block .social ul li {
+  margin: 8px;
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #9370DB;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+
+.social .fa-home:hover {
+    color: #303030;
+}
+
+.social .fa-home {
+    background: #303030;
+    color: #9370DB;
+}
+
+.social .fa-envelope:hover {
+    color: #303030;
+}
+
+.social .fa-envelope {
+    background: #303030;
+    color: #9370DB;
+}
+
+.heading {
+    text-align: center;
+}
+
+h1 {
+	color: #303030;
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: 100;
+	font-size: 50px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #303030;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+h3 {
+    color: #303030;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.adj {
+    margin-bottom: 25px;
+}
+
+.subheading h3 {
+    font-size: 14px;
+}
+
+p {
+	color: #303030;
+	font-weight: 100;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.visible-xs-block .freetime p {
+    margin-top: 5px;
+}
+
+.visible-sm-block .row {
+    text-align: center;
+}

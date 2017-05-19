@@ -1,0 +1,150 @@
+body {
+	background: #0094BC
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+    padding-top: 0;
+}
+
+.visible-xs-block .social ul li {
+  margin: 8px;
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-home:hover {
+    color: white;
+}
+
+.social .fa-home {
+    background: white;
+    color: #0094BC;
+}
+
+.social .fa-info:hover {
+    color: white;
+}
+
+.social .fa-info {
+    background: white;
+    color: #0094BC;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.btn {
+    border: 0 none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 125px;
+    height: 50px;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.btn {
+    border: 1px solid white;
+    border-radius: 24px;
+    color: white;
+    background: #0094BC;
+}
+
+.btn:hover {
+    transition: all ease 0.3s;
+    color: white;
+    border-color: white;
+    background: white;
+}
+
+.visible-xs-block .btn {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    color: #0094BC;
+    background: white;
+    border-radius:0;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	letter-spacing: 3px;
+	margin-bottom: 25px;
+	font-weight: 100;
+	font-size: 50px;
+}
+
+label {
+	color: white;
+	font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 16px;
+
+}
+
+.col-md-10 label {
+	margin-top: 25px;
+}
+.col-md-10 {
+	margin-bottom: 20px;
+}
+
+p {
+	color: white;
+	font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom: 20px
+
+}
+
+a {
+	color: white;
+}
+a:hover {
+	color: #0000FF;
+}
+
+.visible-xs label {
+    margin-top: 20px;
+}
+
+.col-sm-1 button {
+    margin-bottom: 10px;
+}
