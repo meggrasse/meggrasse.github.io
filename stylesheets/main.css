@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Istok+Web');
 
 body {
-  background-color: #FF9500;
+  background-color: #fed9a6;
 }
 
 .sans-serif {
@@ -18,15 +18,31 @@ body {
   margin: .5rem;
 }
 
-.sans-serif a:not(.heading) {
+.sans-serif a:not(.heading), .sans-serif p {
   font-size: 1.5rem;
   line-height: 3rem;
 }
 
 .sidebar-tabs a:hover {
-    transition: all ease 0.5s;
-    background-color: #FF2A68;
     text-decoration: none;
+}
+
+.sidebar-tabs a:not(.heading):hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.sidebar-tabs a:not(.heading):hover {
+
+  transition: all ease 0.5s;
+  background-color: #FF2A68;
+}
+
+.sidebar-tabs .heading:hover {
+  transition: all ease 0.3s;
+  color: white;
+  text-shadow: -2px 2px #DBDDDE;
 }
 
 .sidebar-container {
@@ -48,7 +64,7 @@ body {
 }
 
 .sidebar {
-  border-right: 1px solid #DBDDDE;
+  border-right: 1px solid white;
 }
 
 .sidebar-icons li {
