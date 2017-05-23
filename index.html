@@ -7,86 +7,30 @@
 	<meta name="keywords" content="Meg, Grasse, Margaret, Meg Grasse, Margaret Grasse">
 	<meta name="author" content="Meg Grasse">
 	<link rel="stylesheet" href="imports/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="imports/font-awesome-4.3.0/css/font-awesome.min.css">
 	<link href="stylesheets/main.css" rel="stylesheet">
+	<script src="index.js"></script>
 	<title> Meg Grasse </title>
 	<link rel="icon" href="favicon.ico">
 </head>
 <body>
 	<?php include_once("analyticstracking.php") ?>
-	<div class = "hidden-xs vertical-container">
-		<div>
-		<div class="container button">
-			<div class="row">
-				<div class="hidden-sm">
-					<div class="col-md-2 col-md-offset-4">
-						<a class="btn btn-primary btn-lg" href="./views/about.html" role="button">About</a>
-					</div>
-					<div class="col-md-2">
-						<a class="btn btn-primary btn-lg" href="./views/contact.html" role="button">Contact</a>
-					</div>
-				</div>
-					<div class="visible-sm-block">
-						<div class="col-sm-3 col-sm-offset-3">
-						<a class="btn btn-primary btn-lg" href="./views/about.html" role="button">About</a>
-					</div>
-					<div class="col-sm-3">
-						<a class="btn btn-primary btn-lg" href="./views/about.html" role="button">Contact</a>
-					</div>
-				</div>
+		<div class="sidebar-container container">
+			<div class="sidebar">
+				<ul class="list-unstyled sans-serif sidebar-tabs">
+					<li>
+						<h1><a class="heading" href="./index.html">Meg Grasse</a></h1>
+					</li>
+					<li><a href="./views/about.html">About</a></li>
+					<li><a href="./views/projects.html">Projects</a></li>
+					<li><a>Resume</a></li>
+					<li><a>Personal</a></li>
+				</ul>
+				<ul class="list-unstyled sans-serif list-inline sidebar-icons">
+					<li><a href="mailto:meggrasse@gmail.com"><i class ="fa fa-lg fa-envelope"></i></a></li>
+					<li><a href="https://github.com/meggrasse"><i class="fa fa-lg fa-github"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/meggrasse"><i class="fa fa-lg fa-linkedin"></i></a></li>
+				</ul>
 			</div>
 		</div>
-		<div class="heading">
-			<div class="container">
-				<div class="hidden-md">
-					<div class="col-md-6 col-md-offset-3">
-						<div class="jumbotron">
-							<h1>Meg Grasse</h1>
-							<p>"<i>Art challenges technology, and technology inspires art.</i>" - John Lasseter </p>
-						</div>
-					</div>
-				</div>
-				<div class="visible-md-block">
-					<div class="col-md-8 col-md-offset-2">
-						<div class="jumbotron">
-							<h1>Meg Grasse</h1>
-							<p>"<i>Art challenges technology, and technology inspires art.</i>" - John Lasseter </p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="social">
-			<div class="row">
-				<ul>
-       				<li><a href="https://github.com/meggrasse"><i class="fa fa-lg fa-github"></i></a></li>
-       				<li><a href="https://www.linkedin.com/in/meggrasse"><i class="fa fa-lg fa-linkedin"></i></a></li>
-        			<li><a href="http://www.meggrasse.com/grasse_resume.pdf"><i class="fa fa-lg fa-arrow-circle-o-down"></i></a></li>
-    			</ul>
-			</div>
-		</div>
-	</div>
-	</div>
-	<div class = "visible-xs-block vertical-center">
-		<div>
-		<div class="social">
-			<ul>
-				<li><a href="./views/about.html"><i class ="fa fa-lg fa-info"></i></a></li>
-				<li><a href="./views/contact.html"><i class ="fa fa-lg fa-envelope"></i></a></li>
-				<li><a href="https://github.com/meggrasse"><i class="fa fa-lg fa-github"></i></a></li>
-       			<li><a href="https://www.linkedin.com/in/meggrasse"><i class="fa fa-lg fa-linkedin"></i></a></li>
-        		<li><a href="http://www.meggrasse.com/grasse_resume.pdf"><i class="fa fa-lg fa-arrow-circle-o-down"></i></a></li>
-			</ul>
-		</div>
-		<div class="heading">
-				<div class="jumbotron">
-					<div class="container">
-						<h1>Meg Grasse</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
-</body>
-</html>
+	</body>

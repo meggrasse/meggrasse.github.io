@@ -3,70 +3,41 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
-	<meta name="description" content="About Meg Grasse">
-	<meta name="keywords" content="Meg, Grasse, Margaret, Meg Grasse, Margaret Grasse, about Meg Grasse, about Margaret Grasse, about Grasse, about Meg, about Margaret, Meg Grasse about, Margaret Grasse about, Grasse about, Meg about, Margaret about, about me, about">
+	<meta name="description" content="Meg Grasse's Personal Website">
+	<meta name="keywords" content="Meg, Grasse, Margaret, Meg Grasse, Margaret Grasse">
 	<meta name="author" content="Meg Grasse">
 	<link rel="stylesheet" href="../imports/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="../font-awesome-4.3.0/css/font-awesome.min.css">
-	<link href="../stylesheets/about.css" rel="stylesheet">
+	<link rel="stylesheet" href="../imports/font-awesome-4.3.0/css/font-awesome.min.css">
+	<link href="../stylesheets/main.css" rel="stylesheet">
 	<title> Meg Grasse </title>
 	<link rel="icon" href="favicon.ico">
 </head>
 <body>
 	<?php include_once("analyticstracking.php") ?>
-	<div class="hidden-xs">
-		<a class="btn btn-primary btn-lg" href="../index.html" role="button">Home</a>
-		<a class="btn btn-primary btn-lg" href="./contact.html" role="button">Contact</a>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3">
-					<h1>About Me</h1>
-					<h2>What am I passionate about?</h2>
-				</div>
-				<div class="hidden-sm">
-					<div class="col-md-3">
-						<img class="img-circle" src="../imgs/wildcard1.png" alt="Meg" style="width:150px;height:150px;">
-					</div>
-				</div>
-				<div class="visible-sm-block">
-					<div class = "row">
-						<img class="img-circle" src="../imgs/wildcard1.png" alt="Meg" style="width:150px;height:150px;">
-					</div>
-				</div>
+		<div class="container sidebar-container">
+			<div class = "sidebar">
+				<ul class="list-unstyled sans-serif sidebar-tabs">
+					<li>
+						<h1><a class="heading" href="../index.html">Meg Grasse</a></h1>
+					</li>
+					<li><a href="./about.html">About</a></li>
+					<li><a href="./projects.html">Projects</a></li>
+					<li><a>Resume</a></li>
+					<li><a>Personal</a></li>
+				</ul>
+				<ul class="list-unstyled sans-serif list-inline sidebar-icons">
+					<li><a href="mailto:meggrasse@gmail.com"><i class ="fa fa-lg fa-envelope"></i></a></li>
+					<li><a href="https://github.com/meggrasse"><i class="fa fa-lg fa-github"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/meggrasse"><i class="fa fa-lg fa-linkedin"></i></a></li>
+				</ul>
 			</div>
 		</div>
-		<div class="adj col-md-6 col-md-offset-3">
-				<h3>Innovation</h3>
-				<h3>Universal Access to Information</h3>
-				<h3>Empowerment through Technology</h3>
-				<h3>Connecting our World</h3>
-		</div>
-		<div class="col-md-6 col-md-offset-3">
-			<p>With technology, I can pursue my passions. Because the field is constantly progressing, technolgists live on the brink of it - pioneering new ways to provide solutions to simplify our world. With the availablity of the internet and the accuracy of search engines, almost anyone who is eager to learn now has the resources to educate themselves. As our world becomes concentrated with more and more data, technologists get to work to connect people to the information from which they want to learn and the people with whom they want to interact.</p>
-		</div>
-	</div>
-	<div class="visible-xs-block">
-		<div class="social">
-			<ul>
-				<li><a href="../index.html"><i class="fa fa-lg fa-home"></i></a></li>
-		    	<li><a href="./contact.html"><i class="fa fa-lg fa-envelope"></i></a></li>
-			</ul>
-		</div>
-		<div class="col-md-10 col-md-offset-1">
-			<div class="heading">
-				<h1>About Me</h1>
-				<img class="img-circle" src="../imgs/wildcard1.png" alt="Meg" style="width:150px;height:150px;">
-				<h2>What am I passionate about?</h2>
-			</div>
-			<div class="adj subheading">
-				<h3>Innovation</h3>
-				<h3>Universal Access to Information</h3>
-				<h3>Empowerment through Technology</h3>
-				<h3>Connecting our World</h3>
-			</div>
-			<div class="info">
-				<p>With technology, I can pursue my passions. Because the field is constantly progressing, technolgists live on the brink of it - pioneering new ways to provide solutions to simplify our world. With the availablity of the internet and the accuracy of search engines, almost anyone who is eager to learn now has the resources educate themselves. As our world becomes concentrated with more and more data, technologists get to work to connect people to the information from which they want to learn and the people with whom they want to interact.</p>
-			</div>
+	<div class="container content-container">
+		<div class="about sans-serif">
+			<h1>About Me</h1>
+			<img class="img-circle" src="../imgs/wildcard1.png" alt="Meg" style="width:150px;height:150px;">
+			<p>Passionate about empowerment through technology; universal access to information; connectivity to people, data, and opportunities;
+				 and the mathematical models and computing that move these initiatives forward.</p>
 		</div>
 	</div>
 </body>
