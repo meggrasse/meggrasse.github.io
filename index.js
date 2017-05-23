@@ -1,4 +1,3 @@
-function changeColor() {
-  document.body.style.background = "#0000";
-  console.log("called");
+function changeBackgroundColor(color) {
+  document.body.style.background = color;
 };

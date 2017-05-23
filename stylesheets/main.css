@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Istok+Web');
 
-body {
-  background-color: #fed9a6;
-}
-
 .sans-serif {
   font-family: 'Istok Web';
   color: black;
@@ -53,6 +49,17 @@ body {
   max-width: 80rem;
 }
 
+.about a {
+  color: #484848;
+  font-weight: bold;
+}
+
+.about img {
+ height: 40rem;
+ padding-bottom: 3rem;
+ /*padding-top: 1.5rem;*/
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -77,4 +84,8 @@ body {
 .sidebar-icons li:hover {
   position: relative;
   top: -3px;
+}
+
+hr {
+  border-color: white;
 }
